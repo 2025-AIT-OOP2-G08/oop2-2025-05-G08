@@ -6,7 +6,7 @@ import os
 # プロジェクトのルートディレクトリをPYTHONPATHに追加
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from my_module.K24140.lecture05_camera_image_capture import MyVideoCapture
+from my_module.K21999.lecture05_camera_image_capture import MyVideoCapture
 
 def lecture05_01():
     # --- 1. カメラキャプチャ実行と画像取得 ---
