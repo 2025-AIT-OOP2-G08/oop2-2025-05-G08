@@ -1,5 +1,11 @@
 import numpy as np
 import cv2
+import sys
+import os
+
+# プロジェクトのルートディレクトリをPYTHONPATHに追加
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from my_module.K24140.lecture05_camera_image_capture import MyVideoCapture
 
 def lecture05_01():
@@ -70,7 +76,6 @@ def lecture05_01():
     # --- 4. 書き込み処理 ---
     
     # 最終的な画像をファイルに保存
-    # ファイル名: lecture05_01_学籍番号.png (学籍番号は例)
     output_filename = 'lecture05_01_K24140.png' 
     cv2.imwrite(output_filename, result_img)
     print(f"処理結果を '{output_filename}' として保存しました。")
