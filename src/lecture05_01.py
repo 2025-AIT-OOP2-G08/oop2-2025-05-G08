@@ -3,7 +3,7 @@ import cv2
 # MyVideoCaptureは指定されたパスからインポートされます
 from my_module.K24010.lecture05_camera_image_capture import MyVideoCapture
 
-def lecture05_01_k24010():
+def lecture05_01():
     """
     Webカメラでキャプチャした画像を、google.pngの白色部分にタイリングで埋め込む処理を実行します。
     """
@@ -75,5 +75,4 @@ def lecture05_01_k24010():
 
 # 実行部分
 if __name__ == '__main__':
-    # 関数名が lecture05_01_k24010() になっているのでそのまま実行します
-    lecture05_01_k24010()
+    lecture05_01()

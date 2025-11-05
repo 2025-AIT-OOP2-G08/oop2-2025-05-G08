@@ -1,7 +1,6 @@
-from src.lecture05_01_k24010 import lecture05_01_k24010
+# main.py の内容
+from lecture05_01 import lecture05_01
 
 if __name__ == "__main__":
-    # 画像処理と置換のメイン関数を実行
     
-    lecture05_01_k24010()
-    
+    lecture05_01()
